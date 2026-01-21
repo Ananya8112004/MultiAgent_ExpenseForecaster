@@ -14,7 +14,7 @@ MAX_RETRIES = 5
 # ----------------------------------------------------------------------
 # IMPORTANT: Replace "YOUR_HARDCODED_API_KEY_HERE" with your actual Gemini API key (e.g., "xyz").
 # ----------------------------------------------------------------------
-HARDCODED_API_KEY = "AIzaSyC2hj1SjuJQcCoxcTXJYW9e6l3ZXF3tlMg"
+HARDCODED_API_KEY = "apikey"
 
 
 # --- Helper Functions ---
@@ -251,4 +251,5 @@ if st.button("Generate Forecast", type="primary"):
             st.markdown("")
 
         else:
+
             st.error("Prediction failed. Please check the API key, data format, or see the console for error details.")
